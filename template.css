@@ -1,0 +1,186 @@
+.logo a span {
+  color: $pine;
+}
+
+.alert-error {
+  color: $base;
+}
+
+.confirm {
+  color: $love;
+}
+
+.confirm > button {
+  color: $love;
+}
+
+.confirm > a {
+  color: $love;
+}
+
+.confirm {
+  background-color: $base;
+}
+
+.entry-meta > span > a {
+  color: $iris;
+}
+
+.entry-date {
+  color: $iris;
+}
+
+.entry header h1 a:hover,
+.entry header h1 a:focus {
+  color: $rose;
+}
+
+input[type="search"],
+input[type="url"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  color: $text;
+  background: $surface;
+  border: 1px solid $highlightMed;
+}
+
+label input[type="checkbox"] {
+  accent-color: $foam;
+}
+
+.button.button-primary:hover,
+.button.button-primary:focus {
+  background-color: $highlightMed;
+}
+.button.button-primary:disabled {
+  color: $text;
+  border-color: $highlightHigh;
+  background-color: $highlightHigh;
+  opacity: 0.75;
+}
+
+.entry-content figcaption {
+  color: $subtle;
+}
+
+.entry-author {
+  color: $pine;
+}
+
+.item-meta > ul > li {
+  color: $subtle;
+}
+
+.item-meta > ul > li > a {
+  color: $subtle;
+}
+
+.item-meta > ul > li > a:hover {
+  color: $text;
+}
+
+.item-meta-icons li > :is(a, button) {
+  color: $subtle;
+}
+
+.item-meta-icons li > :is(a, button):hover {
+  color: $text;
+}
+
+:root {
+  --item-status-read-title-link-color: $foam;
+  --body-color: $text;
+  --body-background: $base;
+  --hr-border-color: $highlightMed;
+  --title-color: $text;
+  --link-color: $foam;
+  --link-focus-color: $surface;
+  --link-hover-color: $iris;
+  --link-visited-color: $iris;
+  --header-list-border-color: $highlightMed;
+  --header-link-color: $foam;
+  --header-link-focus-color: $pine;
+  --header-link-hover-color: $rose;
+  --header-active-link-color: $highlightMed;
+  --table-border-color: $highlightMed;
+  --table-th-background: $surface;
+  --table-th-color: $muted;
+  --table-tr-hover-background-color: $base;
+  --table-tr-hover-color: $muted;
+  --button-primary-border-color: $highlightMed;
+  --button-primary-background: $highlightMed;
+  --button-primary-color: $base;
+  --button-primary-focus-border-color: $highlightHigh;
+  --button-primary-focus-background: $highlightHigh;
+  --input-background: $surface;
+  --input-color: $text;
+  --input-placeholder-color: $subtle;
+  --input-focus-color: $text;
+  --input-focus-border-color: $highlightMed;
+  --input-border: $highlightLow;
+  --input-focus-box-shadow: 0 0 0 2px $highlightHigh;
+  --alert-color: $gold;
+  --alert-confirm-color: $love;
+  --alert-background-color: $base;
+  --alert-border-color: $highlightMed;
+  --alert-success-color: $pine;
+  --alert-success-background-color: $surface;
+  --alert-success-border-color: $highlightMed;
+  --alert-error-color: $love;
+  --alert-error-background-color: $love;
+  --alert-error-border-color: $love;
+  --alert-info-color: $muted;
+  --alert-info-background-color: $surface;
+  --alert-info-border-color: $surface;
+  --page-header-title-border-color: $highlightMed;
+  --page-header-title-color: $text;
+  --logo-color: $text;
+  --logo-hover-color-span: $foam;
+  --panel-background: $base;
+  --panel-border-color: $highlightMed;
+  --panel-color: $text;
+  --modal-background: $base;
+  --modal-color: $muted;
+  --modal-box-shadow: 2px 0 5px 0 $overlay;
+  --pagination-link-color: $foam;
+  --pagination-border-color: $highlightMed;
+  --category-color: $text;
+  --category-background-color: $surface;
+  --category-border-color: $highlightMed;
+  --category-link-color: $foam;
+  --category-link-hover-color: $rose;
+  --item-header-color: $text;
+  --item-border-color: $highlightMed;
+  --item-status-unread-title-link-color: $foam;
+  --item-status-read-title-link-color: $iris;
+  --item-status-read-title-focus-color: $highlightMed;
+  --item-meta-focus-color: $text;
+  --item-meta-icons-external-url: $subtle;
+  --item-meta-li-color: $subtle;
+  --item-meta-icons-star: $gold;
+  --current-item-border-color: $surface;
+  --entry-header-border-color: $highlightMed;
+  --entry-header-title-link-color: $text;
+  --entry-meta-color: $iris;
+  --entry-author-color: $pine;
+  --entry-content-color: $text;
+  --entry-content-code-color: $foam;
+  --entry-content-code-background: $base;
+  --entry-content-code-border-color: $highlightMed;
+  --entry-content-fig-caption: $subtle;
+  --entry-content-quote-color: $iris;
+  --entry-content-abbr-border-color: $highlightMed;
+  --entry-enclosure-border-color: $highlightMed;
+  --parsing-error-color: $muted;
+  --feed-parsing-error-background-color: $surface;
+  --feed-parsing-error-border-color: $love;
+  --feed-has-unread-background-color: $surface;
+  --feed-has-unread-border-color: $text;
+  --category-has-unread-background-color: $surface;
+  --category-has-unread-border-color: $foam;
+  --keyboard-shortcuts-li-color: $muted;
+  --counter-color: $muted;
+}
