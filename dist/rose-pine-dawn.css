@@ -32,7 +32,7 @@
 
 .entry header h1 a:hover,
 .entry header h1 a:focus {
-  color: #56949f;
+  color: #d7827e;
 }
 
 input[type="search"],
@@ -91,17 +91,17 @@ label input[type="checkbox"] {
 }
 
 :root {
-  --item-status-read-title-link-color: #286983;
+  --item-status-read-title-link-color: #56949f;
   --body-color: #575279;
   --body-background: #faf4ed;
   --hr-border-color: #dfdad9;
   --title-color: #575279;
-  --link-color: #286983;
+  --link-color: #56949f;
   --link-focus-color: #fffaf3;
-  --link-hover-color: #56949f;
+  --link-hover-color: #907aa9;
   --link-visited-color: #907aa9;
   --header-list-border-color: #dfdad9;
-  --header-link-color: #286983;
+  --header-link-color: #56949f;
   --header-link-focus-color: #286983;
   --header-link-hover-color: #d7827e;
   --header-active-link-color: #dfdad9;
@@ -145,16 +145,16 @@ label input[type="checkbox"] {
   --modal-background: #faf4ed;
   --modal-color: #9893a5;
   --modal-box-shadow: 2px 0 5px 0 #f2e9e1;
-  --pagination-link-color: #286983;
+  --pagination-link-color: #56949f;
   --pagination-border-color: #dfdad9;
   --category-color: #575279;
   --category-background-color: #fffaf3;
   --category-border-color: #dfdad9;
-  --category-link-color: #286983;
+  --category-link-color: #56949f;
   --category-link-hover-color: #d7827e;
   --item-header-color: #575279;
   --item-border-color: #dfdad9;
-  --item-status-unread-title-link-color: #286983;
+  --item-status-unread-title-link-color: #56949f;
   --item-status-read-title-link-color: #907aa9;
   --item-status-read-title-focus-color: #dfdad9;
   --item-meta-focus-color: #575279;
